@@ -19,7 +19,20 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "@next/eslint-plugin-next"],
+  "plugins": [
+    "@typescript-eslint",
+    "@next/eslint-plugin-next",
+    "testing-library"
+  ],
+  "overrides": [
+    {
+      "files": ["**/?(*.)+(spec|test).[jt]s?(x)"],
+      "extends": ["plugin:testing-library/react"],
+      "rules": {
+        "testing-library/prefer-screen-queries": "off"
+      }
+    }
+  ],
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
