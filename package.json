@@ -1,0 +1,30 @@
+{
+  "name": "q",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.0.9",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.13",
+    "@types/react": "17.0.38",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.9",
+    "typescript": "4.5.5",
+    "@types/styled-components": "^5.1.16",
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "babel-plugin-styled-components": "^2.0.2"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  }
+}
