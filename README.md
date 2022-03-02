@@ -10,7 +10,11 @@ This is a [Next.js](https://nextjs.org/) boilerplate to create SPA-s without bre
 
 ## Run locally
 
-1. Clone this repo
+1. Clone this repo as a template
+
+[![Use this template](https://img.shields.io/badge/Genereate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/lazy-ocean/next-js-boilerplate/generate)
+
+See the [GitHub Docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for more info on using a template repo.
 
 2. Install all dependencies:
 
