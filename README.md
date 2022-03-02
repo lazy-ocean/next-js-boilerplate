@@ -24,7 +24,7 @@ $ npm install
 $ yarn
 ```
 
-4. Initialize Husky
+3. Initialize Husky
 
 ```
 $ npm run prepare
@@ -32,7 +32,7 @@ $ npm run prepare
 $ yarn husky install
 ```
 
-5. Run the deployment server
+4. Run the deployment server
 
 ```
 $ npm run dev
@@ -40,4 +40,4 @@ $ npm run dev
 $ yarn dev
 ```
 
-6. Your app is served at http://localhost:3000/
+5. Your app is served at http://localhost:3000/
