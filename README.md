@@ -41,3 +41,8 @@ $ yarn dev
 ```
 
 5. Your app is served at http://localhost:3000/
+
+## Changelog
+
+- **Nov-22**: upgrade to Next.js 13.0.1, React 18.2.0, TypeScript 4.8.4
+- **Jun-22**: first version, Next.js 12, React 18.1.0, TypeScript 4.5.5
