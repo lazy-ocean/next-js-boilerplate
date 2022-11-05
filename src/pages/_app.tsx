@@ -5,10 +5,11 @@ import { GlobalStyles, theme } from "../theme";
 
 const MyApp = () => {
   /* let testLintIsWorking = ""; */
+  const nextVersion = "13";
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <Main />
+      <Main version={nextVersion} />
     </ThemeProvider>
   );
 };
