@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) boilerplate to create SPA-s without breaking a sweat. 🥵
+This is a [Next.js](https://nextjs.org/) boilerplate to create SSR-d apps without breaking a sweat. 🥵
 
 ## Stack and tools
 
