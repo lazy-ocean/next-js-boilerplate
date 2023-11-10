@@ -6,7 +6,7 @@ This is a [Next.js](https://nextjs.org/) boilerplate to create SSR-d apps withou
 - **[Jest](https://jestjs.io/)** + **[React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)**: unit and React components testing
 - **[Prettier](https://prettier.io/docs/en/index.html)** + **[eslint](https://eslint.org/)**: coding in style
 - **[Husky](https://github.com/typicode/husky)** + **[commitlint](https://github.com/conventional-changelog/commitlint)**: auto-linting commits with Husky for meeting the [conventional commit format](https://www.conventionalcommits.org/en/v1.0.0/)
-- **[styled-components](https://styled-components.com/)**: styling your app.
+- **[css-modules](<[https://styled-components.com/](https://nextjs.org/docs/app/building-your-application/styling/css-modules)>)**: styling your app.
 
 ## Run locally
 
@@ -44,5 +44,5 @@ $ yarn dev
 
 ## Changelog
 
-- **Nov-22**: upgrade to Next.js 13.0.1, React 18.2.0, TypeScript 4.8.4
-- **Jun-22**: first version, Next.js 12, React 18.1.0, TypeScript 4.5.5
+- **Nov-22-2023**: upgrade to Next.js 14.0.2, React 18.2.0, TypeScript 4.8.4, remove styled-components in favour of css modules
+- **Jun-22-2023**: first version, Next.js 12, React 18.1.0, TypeScript 4.5.5
